@@ -1,0 +1,62 @@
+*
+{
+   margin: 0;
+   padding: 0; 
+}
+
+.button{
+    border-radius: 30px;
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    background: black;
+    border: none;
+}
+
+.button:hover
+{
+    background: orange;
+}
+
+.button:active
+{
+    background: rgba(255, 166, 0, 0.5);
+}
+
+.display
+{
+    border-radius: 20px;
+    width: 398px;
+    height: 100px;
+    padding: 10px;
+    margin: 4px;
+    font-size: 50px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.calculator
+{
+    margin-left: 40%;
+    margin-right : 60%;
+    margin-top: 9%;
+}
+
+#zero_button
+{
+    width: 206px;
+}
+
+#equal_button
+{
+    height: 206px;
+    background: orange;
+}
+
+body
+{
+    background:linear-gradient(to right, #f803fc, #03fce3);
+}
